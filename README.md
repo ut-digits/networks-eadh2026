@@ -5,7 +5,7 @@ Some of the presentations will be visible as interactive websites, some will be 
 ## DigiTS researchers
 
 * DigiTS I Annual Progress meeting: overview of Year 1 & the research team's work [presentations](https://sisu.ut.ee/wp-content/uploads/sites/903/DigiTS-I-Annual-Progress-Meeting_research-slides.pdf) (February 2026)
-* Maciej Eder "Computational Stylistics: From Authorship Attribution to Assessing Language Change” [presentation](https://computationalstylistics.github.io/presentations/DigiTS_kickoff_2025/#/title-slide) (April 2025)
+* Maciej Eder "Computational Stylistics: From Authorship Attribution to Assessing Language Change” [presentation](https://computationalstylistics.github.io/presentations_archive/DigiTS_kickoff_2025/) (April 2025)
 
 ## AI-teh seminars
 
