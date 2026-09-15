@@ -7,7 +7,7 @@ This document contains the stuff to be introduced at the workshop _Network Analy
 ## Data and files
 
 - a network of characters (interactions between characters) in _Hamlet_ by Shakespeare:
-    - [../data/hamlet_network.gexf](../data/hamlet_network.gexf) (a native Gephi file)
+    - [data/hamlet_network.gexf](data/hamlet_network.gexf) (a native Gephi file)
     - [../../data/hamlet_network.csv](../../data/hamlet_network.csv) (a generic CSV file, more adventurous)
     - [https://dracor.org/shake/hamlet#downloads](https://dracor.org/shake/hamlet#downloads) (original dataset)
 - a network of correspondence by John Locke:
