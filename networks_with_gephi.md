@@ -7,14 +7,14 @@ This document contains the stuff to be introduced at the workshop _Network Analy
 ## Data and files
 
 - a network of characters (interactions between characters) in _Hamlet_ by Shakespeare:
-    - [data/hamlet_network.gexf](data/hamlet_network.gexf) (a native Gephi file)
-    - [../../data/hamlet_network.csv](../../data/hamlet_network.csv) (a generic CSV file, more adventurous)
+    - [`data/hamlet_network.gexf`](data/hamlet_network.gexf) (a native Gephi file)
+    - [`data/hamlet_network.csv`](data/hamlet_network.csv) (a generic CSV file, more adventurous)
     - [https://dracor.org/shake/hamlet#downloads](https://dracor.org/shake/hamlet#downloads) (original dataset)
 - a network of correspondence by John Locke:
-    - [../../data/John_Locke_correspondence.gexf](../../data/John_Locke_correspondence.gexf) (a native Gephi file)
+    - [`data/John_Locke_correspondence.gexf`](data/John_Locke_correspondence.gexf) (a native Gephi file)
     - [https://github.com/claudewillan/JohnLocke](https://github.com/claudewillan/JohnLocke) (original dataset)
 - a network of textual similarities in a corpus of 100 English novels:
-    - [../../data/English_novels_network.csv](../../data/English_novels_network.csv) (a CSV file to import to Gephi)
+    - [`data/English_novels_network.csv`](data/English_novels_network.csv) (a CSV file to import to Gephi)
     - [https://github.com/computationalstylistics/100_english_novels](https://github.com/computationalstylistics/100_english_novels) (100 English novels in a plain text format)
     - [https://computationalstylistics.github.io/projects/bootstrap-networks/](https://computationalstylistics.github.io/projects/bootstrap-networks/) (a blog post on how to get from raw texts to networks)
 
