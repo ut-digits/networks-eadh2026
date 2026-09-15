@@ -7,7 +7,7 @@ This document contains the stuff to be introduced at the workshop _Network Analy
 ## Data and files
 
 - a network of characters (interactions between characters) in _Hamlet_ by Shakespeare:
-    - [../../data/hamlet_network.gexf](../../data/hamlet_network.gexf) (a native Gephi file)
+    - [../data/hamlet_network.gexf](../data/hamlet_network.gexf) (a native Gephi file)
     - [../../data/hamlet_network.csv](../../data/hamlet_network.csv) (a generic CSV file, more adventurous)
     - [https://dracor.org/shake/hamlet#downloads](https://dracor.org/shake/hamlet#downloads) (original dataset)
 - a network of correspondence by John Locke:
@@ -159,9 +159,9 @@ Below, you will find some copy-pasted instructions on how to import a spreadshee
 
 * We need to get authors’ names...
 * Select **Create column with list of regex matching groups > ID**. 
-	* Title: of your choice, e.g. Author, 
-	* Regular Expression: limit what content to extract from the ID, 
-		* e.g. to extract just the author from `Brontë_Wuthering.txt`: `^[A-Za-z]+`
+    * Title: of your choice, e.g. Author, 
+    * Regular Expression: limit what content to extract from the ID, 
+        * e.g. to extract just the author from `Brontë_Wuthering.txt`: `^[A-Za-z]+`
 * OK!
 * **Copy data to other column > Author** to **Label**
 
@@ -179,8 +179,8 @@ Below, you will find some copy-pasted instructions on how to import a spreadshee
 
 * Select **ForceAtlas 2**
 * If you have a lot of data:
-	* Dissuade Hubs
-	* Prevent Overlap
+    * Dissuade Hubs
+    * Prevent Overlap
 * Edge Weight Influence 0.5
 * Scaling: 500
 * Run!
@@ -189,9 +189,9 @@ Below, you will find some copy-pasted instructions on how to import a spreadshee
 #### Running Gephi: Overview Layout (cont.)
 
 * To make labels align:
-	* select **Label Adjust**
+    * select **Label Adjust**
 * If your nodes stick together:
-	* select **Expansion**
+    * select **Expansion**
 * Run! (for Expansion - a couple of times)
 
 
