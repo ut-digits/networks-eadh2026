@@ -1,0 +1,231 @@
+---
+title: "Annotated Network Analysis Pipeline in R"
+output: html_document
+---
+
+# Network Analysis Pipeline in R
+
+This R Markdown document rebuilds the network from a CSV edge list, draws it using **fixed node positions** that match the figure, and computes:
+
+## Node-level measures
+- Raw degree
+- Normalized degree centrality
+- Raw betweenness centrality
+- Normalized betweenness centrality
+- Closeness centrality
+- Eigenvector centrality
+- Clustering coefficient
+
+## Graph-level measures
+- Average clustering coefficient
+- Global clustering coefficient
+- Diameter
+- Average path length
+- Density
+
+At the end, the pipeline saves:
+- `network_centrality_results.csv` for node-level results
+- `network_global_metrics.csv` for graph-level results
+
+# 1. Install and load packages
+
+We use:
+
+- `readr` to read CSV files
+- `dplyr` to build clean result tables
+- `igraph` to construct, analyze, and plot the network
+
+```{r setup, message=FALSE, warning=FALSE}
+packages <- c("readr", "dplyr", "igraph")
+
+install.packages(packages)
+
+library(readr)
+library(dplyr)
+library(igraph)
+```
+
+# 2. Read the CSV file
+
+The CSV is expected to have this structure:
+
+```csv
+source,target
+A,B
+A,C
+...
+```
+
+Each row represents one **undirected edge**.
+
+```{r read-csv}
+# Change this filename if needed
+csv_filename <- "network_edges.csv"
+
+edges <- read_csv(csv_filename, show_col_types = FALSE)
+edges
+```
+
+# 3. Construct the network
+
+We build an **undirected graph** because the original figure does not show arrow directions.
+
+```{r build-graph}
+g <- graph_from_data_frame(edges, directed = FALSE)
+
+cat("Number of nodes:", vcount(g), "\n")
+cat("Number of edges:", ecount(g), "\n")
+cat("Nodes:", paste(sort(V(g)$name), collapse = ", "), "\n")
+```
+
+# 4. Define fixed node positions
+
+Instead of using an automatic layout, we manually define coordinates so the plotted graph resembles the source image more closely.
+
+```{r fixed-positions}
+node_order <- c("A", "B", "C", "D", "E", "F", "G", "H")
+
+fixed_positions <- data.frame(
+  name = node_order,
+  x = c(-2.0,  0.0, -1.0, -2.5, -1.2,  0.2,  1.5,  1.5),
+  y = c( 1.0,  1.2,  0.0, -0.5, -1.5, -0.8, -1.5,  0.0)
+)
+
+fixed_positions
+```
+
+# 5. Draw the network
+
+The layout matrix must follow the exact order of the graph vertices.
+
+```{r plot-network, fig.width=8, fig.height=6}
+# Reorder fixed coordinates so they match the graph's internal vertex order
+layout_df <- fixed_positions[match(V(g)$name, fixed_positions$name), ]
+layout_matrix <- as.matrix(layout_df[, c("x", "y")])
+
+plot(
+  g,
+  layout = layout_matrix,
+  vertex.size = 35,
+  vertex.color = "lightgray",
+  vertex.frame.color = "black",
+  vertex.label.color = "black",
+  vertex.label.cex = 1.2,
+  edge.color = "black",
+  main = "Network Graph (Fixed Layout)"
+)
+```
+
+# 6. Compute node-level measures
+
+Below is a short interpretation of each measure:
+
+- **Raw degree**: number of direct neighbors
+- **Normalized degree centrality**: raw degree divided by the maximum possible degree
+- **Raw betweenness**: how often a node lies on shortest paths between other nodes, unnormalized
+- **Normalized betweenness**: scaled betweenness
+- **Closeness centrality**: how near a node is to all others
+- **Eigenvector centrality**: gives more weight to connections to important nodes
+- **Clustering coefficient**: how connected a node's neighbors are to one another
+
+```{r node-metrics}
+# Raw degree
+degree_raw <- degree(g, mode = "all", normalized = FALSE)
+
+# Normalized degree
+degree_norm <- degree(g, mode = "all", normalized = TRUE)
+
+# Raw betweenness
+betweenness_raw <- betweenness(g, directed = FALSE, normalized = FALSE)
+
+# Normalized betweenness
+betweenness_norm <- betweenness(g, directed = FALSE, normalized = TRUE)
+
+# Closeness centrality
+closeness_vals <- closeness(g, normalized = TRUE)
+
+# Eigenvector centrality
+eigenvector_vals <- eigen_centrality(g, directed = FALSE, scale = TRUE)$vector
+
+# Local clustering coefficient
+clustering_local <- transitivity(g, type = "localundirected")
+```
+
+# 7. Combine node-level results into one table
+
+```{r node-results}
+node_results <- tibble(
+  Node = V(g)$name,
+  Degree_raw = as.numeric(degree_raw),
+  Degree_norm = as.numeric(degree_norm),
+  Betweenness_raw = as.numeric(betweenness_raw),
+  Betweenness_norm = as.numeric(betweenness_norm),
+  Closeness = as.numeric(closeness_vals),
+  Eigenvector = as.numeric(eigenvector_vals),
+  ClusteringCoeff = as.numeric(clustering_local)
+) %>%
+  arrange(desc(Degree_raw), desc(Betweenness_raw)) %>%
+  mutate(
+    Degree_norm = round(Degree_norm, 6),
+    Betweenness_raw = round(Betweenness_raw, 6),
+    Betweenness_norm = round(Betweenness_norm, 6),
+    Closeness = round(Closeness, 6),
+    Eigenvector = round(Eigenvector, 6),
+    ClusteringCoeff = round(ClusteringCoeff, 6)
+  )
+
+node_results
+```
+
+# 8. Save node-level results to CSV
+
+```{r save-node-results}
+write_csv(node_results, "network_centrality_results.csv")
+```
+
+# 9. Compute graph-level measures
+
+These metrics describe the **whole network**, not individual nodes.
+
+- **Average clustering coefficient**: average of local clustering across all nodes
+- **Global clustering coefficient**: triangle density over all connected triples
+- **Diameter**: the longest shortest-path distance in the network
+- **Average path length**: average shortest-path distance between all node pairs
+- **Density**: proportion of realized edges out of all possible edges
+
+```{r global-metrics}
+avg_clustering <- transitivity(g, type = "average")
+global_clustering <- transitivity(g, type = "globalundirected")
+diameter_val <- diameter(g, directed = FALSE, weights = NA)
+avg_path_length <- mean_distance(g, directed = FALSE)
+density_val <- edge_density(g, loops = FALSE)
+
+global_results <- tibble(
+  Metric = c(
+    "AverageClusteringCoeff",
+    "GlobalClusteringCoeff",
+    "Diameter",
+    "AveragePathLength",
+    "Density"
+  ),
+  Value = c(
+    avg_clustering,
+    global_clustering,
+    diameter_val,
+    avg_path_length,
+    density_val
+  )
+) %>%
+  mutate(Value = round(Value, 6))
+
+global_results
+```
+
+# 10. Save graph-level results to CSV
+
+```{r save-global-results}
+write_csv(global_results, "network_global_metrics.csv")
+
+```
+
+

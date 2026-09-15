@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Shakespeare, William: Hamlet</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="sex" title="Sex" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Barnardo_Ham" label="Barnardo">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="230"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Francisco_Ham" label="Francisco">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="55"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Horatio_Ham" label="Horatio">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2094"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Marcellus_Ham" label="Marcellus">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="444"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Claudius_Ham" label="King Claudius">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4105"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Cornelius_Ham" label="Cornelius">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Voltemand_Ham" label="Voltemand">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="161"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Laertes_Ham" label="Laertes">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1469"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Polonius_Ham" label="Polonius">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2698"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Hamlet_Ham" label="Hamlet">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11832"/>
+                </attvalues>
+            </node>
+            <node id="Gertrude_Ham" label="Queen Gertrude">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1070"/>
+                </attvalues>
+            </node>
+            <node id="Ophelia_Ham" label="Ophelia">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1208"/>
+                </attvalues>
+            </node>
+            <node id="Ghost_Ham" label="The Ghost">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="687"/>
+                </attvalues>
+            </node>
+            <node id="Reynaldo_Ham" label="Reynaldo">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Rosencrantz_Ham" label="Rosencrantz">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="715"/>
+                </attvalues>
+            </node>
+            <node id="Guildenstern_Ham" label="Guildenstern">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="327"/>
+                </attvalues>
+            </node>
+            <node id="PLAYERS.1_Ham" label="PLAYERS.1_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="358"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="PLAYERS.0.1_Ham" label="PLAYERS.0.1_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="PLAYERS.Prologue_Ham" label="PLAYERS.Prologue_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="PLAYERS.King_Ham" label="PLAYERS.King_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="338"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="PLAYERS.Queen_Ham" label="PLAYERS.Queen_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="250"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="PLAYERS.Lucianus_Ham" label="PLAYERS.Lucianus_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="41"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="ATTENDANTS.GUARDS_Ham" label="Attendants, Lords, Guards, Musicians, Laertes’s Followers, Soldiers, Officers">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Fortinbras_Ham" label="Fortinbras">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="188"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="SOLDIERS.FORTINBRAS.Captain_Ham" label="SOLDIERS.FORTINBRAS.Captain_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="85"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ATTENDANTS.1_Ham" label="courtiers at the Danish court">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="100"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="MESSENGERS.1_Ham" label="MESSENGERS.1_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="78"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="FOLLOWERS.LAERTES_Ham" label="Attendants, Lords, Guards, Musicians, Laertes’s Followers, Soldiers, Officers">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="ATTENDANTS.0.1_Ham" label="Attendants, Lords, Guards, Musicians, Laertes’s Followers, Soldiers, Officers">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="SAILORS.0.1_Ham" label="SAILORS.0.1_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="41"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="MESSENGERS.2_Ham" label="MESSENGERS.2_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="36"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Gravedigger_Ham" label="Gravedigger_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="753"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GravediggersCompanion_Ham" label="GravediggersCompanion_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="98"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Doctor_Ham" label="Doctor_Ham">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="92"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ATTENDANTS_Ham" label="Attendants, Lords, Guards, Musicians, Laertes’s Followers, Soldiers, Officers">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Osric_Ham" label="Osric">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="361"/>
+                    <attvalue for="sex" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ATTENDANTS.2_Ham" label="courtiers at the Danish court">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="67"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="AMBASSADORS_Ham" label="Ambassadors to Denmark from England">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="40"/>
+                    <attvalue for="sex" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Barnardo_Ham|Francisco_Ham" source="Barnardo_Ham" target="Francisco_Ham" weight="1"/>
+            <edge id="Barnardo_Ham|Horatio_Ham" source="Barnardo_Ham" target="Horatio_Ham" weight="2"/>
+            <edge id="Barnardo_Ham|Marcellus_Ham" source="Barnardo_Ham" target="Marcellus_Ham" weight="2"/>
+            <edge id="Barnardo_Ham|Claudius_Ham" source="Barnardo_Ham" target="Claudius_Ham" weight="1"/>
+            <edge id="Barnardo_Ham|Cornelius_Ham" source="Barnardo_Ham" target="Cornelius_Ham" weight="1"/>
+            <edge id="Barnardo_Ham|Voltemand_Ham" source="Barnardo_Ham" target="Voltemand_Ham" weight="1"/>
+            <edge id="Barnardo_Ham|Laertes_Ham" source="Barnardo_Ham" target="Laertes_Ham" weight="1"/>
+            <edge id="Barnardo_Ham|Polonius_Ham" source="Barnardo_Ham" target="Polonius_Ham" weight="1"/>
+            <edge id="Barnardo_Ham|Hamlet_Ham" source="Barnardo_Ham" target="Hamlet_Ham" weight="1"/>
+            <edge id="Barnardo_Ham|Gertrude_Ham" source="Barnardo_Ham" target="Gertrude_Ham" weight="1"/>
+            <edge id="Francisco_Ham|Horatio_Ham" source="Francisco_Ham" target="Horatio_Ham" weight="1"/>
+            <edge id="Francisco_Ham|Marcellus_Ham" source="Francisco_Ham" target="Marcellus_Ham" weight="1"/>
+            <edge id="Horatio_Ham|Marcellus_Ham" source="Horatio_Ham" target="Marcellus_Ham" weight="4"/>
+            <edge id="Horatio_Ham|Claudius_Ham" source="Horatio_Ham" target="Claudius_Ham" weight="5"/>
+            <edge id="Horatio_Ham|Cornelius_Ham" source="Horatio_Ham" target="Cornelius_Ham" weight="1"/>
+            <edge id="Horatio_Ham|Voltemand_Ham" source="Horatio_Ham" target="Voltemand_Ham" weight="1"/>
+            <edge id="Horatio_Ham|Laertes_Ham" source="Horatio_Ham" target="Laertes_Ham" weight="4"/>
+            <edge id="Horatio_Ham|Polonius_Ham" source="Horatio_Ham" target="Polonius_Ham" weight="2"/>
+            <edge id="Horatio_Ham|Hamlet_Ham" source="Horatio_Ham" target="Hamlet_Ham" weight="6"/>
+            <edge id="Horatio_Ham|Gertrude_Ham" source="Horatio_Ham" target="Gertrude_Ham" weight="5"/>
+            <edge id="Horatio_Ham|Ghost_Ham" source="Horatio_Ham" target="Ghost_Ham" weight="1"/>
+            <edge id="Horatio_Ham|PLAYERS.0.1_Ham" source="Horatio_Ham" target="PLAYERS.0.1_Ham" weight="1"/>
+            <edge id="Horatio_Ham|Rosencrantz_Ham" source="Horatio_Ham" target="Rosencrantz_Ham" weight="1"/>
+            <edge id="Horatio_Ham|Ophelia_Ham" source="Horatio_Ham" target="Ophelia_Ham" weight="2"/>
+            <edge id="Horatio_Ham|PLAYERS.Prologue_Ham" source="Horatio_Ham" target="PLAYERS.Prologue_Ham" weight="1"/>
+            <edge id="Horatio_Ham|PLAYERS.King_Ham" source="Horatio_Ham" target="PLAYERS.King_Ham" weight="1"/>
+            <edge id="Horatio_Ham|PLAYERS.Queen_Ham" source="Horatio_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="Horatio_Ham|PLAYERS.Lucianus_Ham" source="Horatio_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="Horatio_Ham|Guildenstern_Ham" source="Horatio_Ham" target="Guildenstern_Ham" weight="1"/>
+            <edge id="Horatio_Ham|ATTENDANTS.1_Ham" source="Horatio_Ham" target="ATTENDANTS.1_Ham" weight="1"/>
+            <edge id="Horatio_Ham|MESSENGERS.1_Ham" source="Horatio_Ham" target="MESSENGERS.1_Ham" weight="1"/>
+            <edge id="Horatio_Ham|FOLLOWERS.LAERTES_Ham" source="Horatio_Ham" target="FOLLOWERS.LAERTES_Ham" weight="1"/>
+            <edge id="Horatio_Ham|ATTENDANTS.0.1_Ham" source="Horatio_Ham" target="ATTENDANTS.0.1_Ham" weight="1"/>
+            <edge id="Horatio_Ham|SAILORS.0.1_Ham" source="Horatio_Ham" target="SAILORS.0.1_Ham" weight="1"/>
+            <edge id="Horatio_Ham|Gravedigger_Ham" source="Horatio_Ham" target="Gravedigger_Ham" weight="1"/>
+            <edge id="Horatio_Ham|GravediggersCompanion_Ham" source="Horatio_Ham" target="GravediggersCompanion_Ham" weight="1"/>
+            <edge id="Horatio_Ham|Doctor_Ham" source="Horatio_Ham" target="Doctor_Ham" weight="1"/>
+            <edge id="Horatio_Ham|ATTENDANTS_Ham" source="Horatio_Ham" target="ATTENDANTS_Ham" weight="2"/>
+            <edge id="Horatio_Ham|Osric_Ham" source="Horatio_Ham" target="Osric_Ham" weight="1"/>
+            <edge id="Horatio_Ham|ATTENDANTS.2_Ham" source="Horatio_Ham" target="ATTENDANTS.2_Ham" weight="1"/>
+            <edge id="Horatio_Ham|Fortinbras_Ham" source="Horatio_Ham" target="Fortinbras_Ham" weight="1"/>
+            <edge id="Horatio_Ham|AMBASSADORS_Ham" source="Horatio_Ham" target="AMBASSADORS_Ham" weight="1"/>
+            <edge id="Marcellus_Ham|Claudius_Ham" source="Marcellus_Ham" target="Claudius_Ham" weight="1"/>
+            <edge id="Marcellus_Ham|Cornelius_Ham" source="Marcellus_Ham" target="Cornelius_Ham" weight="1"/>
+            <edge id="Marcellus_Ham|Voltemand_Ham" source="Marcellus_Ham" target="Voltemand_Ham" weight="1"/>
+            <edge id="Marcellus_Ham|Laertes_Ham" source="Marcellus_Ham" target="Laertes_Ham" weight="1"/>
+            <edge id="Marcellus_Ham|Polonius_Ham" source="Marcellus_Ham" target="Polonius_Ham" weight="1"/>
+            <edge id="Marcellus_Ham|Hamlet_Ham" source="Marcellus_Ham" target="Hamlet_Ham" weight="3"/>
+            <edge id="Marcellus_Ham|Gertrude_Ham" source="Marcellus_Ham" target="Gertrude_Ham" weight="1"/>
+            <edge id="Marcellus_Ham|Ghost_Ham" source="Marcellus_Ham" target="Ghost_Ham" weight="1"/>
+            <edge id="Claudius_Ham|Cornelius_Ham" source="Claudius_Ham" target="Cornelius_Ham" weight="1"/>
+            <edge id="Claudius_Ham|Voltemand_Ham" source="Claudius_Ham" target="Voltemand_Ham" weight="2"/>
+            <edge id="Claudius_Ham|Laertes_Ham" source="Claudius_Ham" target="Laertes_Ham" weight="5"/>
+            <edge id="Claudius_Ham|Polonius_Ham" source="Claudius_Ham" target="Polonius_Ham" weight="5"/>
+            <edge id="Claudius_Ham|Hamlet_Ham" source="Claudius_Ham" target="Hamlet_Ham" weight="8"/>
+            <edge id="Claudius_Ham|Gertrude_Ham" source="Claudius_Ham" target="Gertrude_Ham" weight="9"/>
+            <edge id="Claudius_Ham|Rosencrantz_Ham" source="Claudius_Ham" target="Rosencrantz_Ham" weight="5"/>
+            <edge id="Claudius_Ham|Guildenstern_Ham" source="Claudius_Ham" target="Guildenstern_Ham" weight="4"/>
+            <edge id="Claudius_Ham|PLAYERS.1_Ham" source="Claudius_Ham" target="PLAYERS.1_Ham" weight="1"/>
+            <edge id="Claudius_Ham|Ophelia_Ham" source="Claudius_Ham" target="Ophelia_Ham" weight="3"/>
+            <edge id="Claudius_Ham|PLAYERS.0.1_Ham" source="Claudius_Ham" target="PLAYERS.0.1_Ham" weight="1"/>
+            <edge id="Claudius_Ham|PLAYERS.Prologue_Ham" source="Claudius_Ham" target="PLAYERS.Prologue_Ham" weight="1"/>
+            <edge id="Claudius_Ham|PLAYERS.King_Ham" source="Claudius_Ham" target="PLAYERS.King_Ham" weight="1"/>
+            <edge id="Claudius_Ham|PLAYERS.Queen_Ham" source="Claudius_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="Claudius_Ham|PLAYERS.Lucianus_Ham" source="Claudius_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="Claudius_Ham|ATTENDANTS.1_Ham" source="Claudius_Ham" target="ATTENDANTS.1_Ham" weight="1"/>
+            <edge id="Claudius_Ham|MESSENGERS.1_Ham" source="Claudius_Ham" target="MESSENGERS.1_Ham" weight="1"/>
+            <edge id="Claudius_Ham|FOLLOWERS.LAERTES_Ham" source="Claudius_Ham" target="FOLLOWERS.LAERTES_Ham" weight="1"/>
+            <edge id="Claudius_Ham|MESSENGERS.2_Ham" source="Claudius_Ham" target="MESSENGERS.2_Ham" weight="1"/>
+            <edge id="Claudius_Ham|Gravedigger_Ham" source="Claudius_Ham" target="Gravedigger_Ham" weight="1"/>
+            <edge id="Claudius_Ham|GravediggersCompanion_Ham" source="Claudius_Ham" target="GravediggersCompanion_Ham" weight="1"/>
+            <edge id="Claudius_Ham|Doctor_Ham" source="Claudius_Ham" target="Doctor_Ham" weight="1"/>
+            <edge id="Claudius_Ham|ATTENDANTS_Ham" source="Claudius_Ham" target="ATTENDANTS_Ham" weight="2"/>
+            <edge id="Claudius_Ham|Osric_Ham" source="Claudius_Ham" target="Osric_Ham" weight="1"/>
+            <edge id="Claudius_Ham|ATTENDANTS.2_Ham" source="Claudius_Ham" target="ATTENDANTS.2_Ham" weight="1"/>
+            <edge id="Claudius_Ham|Fortinbras_Ham" source="Claudius_Ham" target="Fortinbras_Ham" weight="1"/>
+            <edge id="Claudius_Ham|AMBASSADORS_Ham" source="Claudius_Ham" target="AMBASSADORS_Ham" weight="1"/>
+            <edge id="Cornelius_Ham|Voltemand_Ham" source="Cornelius_Ham" target="Voltemand_Ham" weight="1"/>
+            <edge id="Cornelius_Ham|Laertes_Ham" source="Cornelius_Ham" target="Laertes_Ham" weight="1"/>
+            <edge id="Cornelius_Ham|Polonius_Ham" source="Cornelius_Ham" target="Polonius_Ham" weight="1"/>
+            <edge id="Cornelius_Ham|Hamlet_Ham" source="Cornelius_Ham" target="Hamlet_Ham" weight="1"/>
+            <edge id="Cornelius_Ham|Gertrude_Ham" source="Cornelius_Ham" target="Gertrude_Ham" weight="1"/>
+            <edge id="Voltemand_Ham|Laertes_Ham" source="Voltemand_Ham" target="Laertes_Ham" weight="1"/>
+            <edge id="Voltemand_Ham|Polonius_Ham" source="Voltemand_Ham" target="Polonius_Ham" weight="2"/>
+            <edge id="Voltemand_Ham|Hamlet_Ham" source="Voltemand_Ham" target="Hamlet_Ham" weight="2"/>
+            <edge id="Voltemand_Ham|Gertrude_Ham" source="Voltemand_Ham" target="Gertrude_Ham" weight="2"/>
+            <edge id="Voltemand_Ham|Rosencrantz_Ham" source="Voltemand_Ham" target="Rosencrantz_Ham" weight="1"/>
+            <edge id="Voltemand_Ham|Guildenstern_Ham" source="Voltemand_Ham" target="Guildenstern_Ham" weight="1"/>
+            <edge id="Voltemand_Ham|PLAYERS.1_Ham" source="Voltemand_Ham" target="PLAYERS.1_Ham" weight="1"/>
+            <edge id="Laertes_Ham|Polonius_Ham" source="Laertes_Ham" target="Polonius_Ham" weight="2"/>
+            <edge id="Laertes_Ham|Hamlet_Ham" source="Laertes_Ham" target="Hamlet_Ham" weight="3"/>
+            <edge id="Laertes_Ham|Gertrude_Ham" source="Laertes_Ham" target="Gertrude_Ham" weight="5"/>
+            <edge id="Laertes_Ham|Ophelia_Ham" source="Laertes_Ham" target="Ophelia_Ham" weight="2"/>
+            <edge id="Laertes_Ham|ATTENDANTS.1_Ham" source="Laertes_Ham" target="ATTENDANTS.1_Ham" weight="1"/>
+            <edge id="Laertes_Ham|MESSENGERS.1_Ham" source="Laertes_Ham" target="MESSENGERS.1_Ham" weight="1"/>
+            <edge id="Laertes_Ham|FOLLOWERS.LAERTES_Ham" source="Laertes_Ham" target="FOLLOWERS.LAERTES_Ham" weight="1"/>
+            <edge id="Laertes_Ham|MESSENGERS.2_Ham" source="Laertes_Ham" target="MESSENGERS.2_Ham" weight="1"/>
+            <edge id="Laertes_Ham|Gravedigger_Ham" source="Laertes_Ham" target="Gravedigger_Ham" weight="1"/>
+            <edge id="Laertes_Ham|GravediggersCompanion_Ham" source="Laertes_Ham" target="GravediggersCompanion_Ham" weight="1"/>
+            <edge id="Laertes_Ham|Doctor_Ham" source="Laertes_Ham" target="Doctor_Ham" weight="1"/>
+            <edge id="Laertes_Ham|ATTENDANTS_Ham" source="Laertes_Ham" target="ATTENDANTS_Ham" weight="2"/>
+            <edge id="Laertes_Ham|Osric_Ham" source="Laertes_Ham" target="Osric_Ham" weight="1"/>
+            <edge id="Laertes_Ham|ATTENDANTS.2_Ham" source="Laertes_Ham" target="ATTENDANTS.2_Ham" weight="1"/>
+            <edge id="Laertes_Ham|Fortinbras_Ham" source="Laertes_Ham" target="Fortinbras_Ham" weight="1"/>
+            <edge id="Laertes_Ham|AMBASSADORS_Ham" source="Laertes_Ham" target="AMBASSADORS_Ham" weight="1"/>
+            <edge id="Polonius_Ham|Hamlet_Ham" source="Polonius_Ham" target="Hamlet_Ham" weight="6"/>
+            <edge id="Polonius_Ham|Gertrude_Ham" source="Polonius_Ham" target="Gertrude_Ham" weight="5"/>
+            <edge id="Polonius_Ham|Ophelia_Ham" source="Polonius_Ham" target="Ophelia_Ham" weight="4"/>
+            <edge id="Polonius_Ham|Reynaldo_Ham" source="Polonius_Ham" target="Reynaldo_Ham" weight="1"/>
+            <edge id="Polonius_Ham|Rosencrantz_Ham" source="Polonius_Ham" target="Rosencrantz_Ham" weight="4"/>
+            <edge id="Polonius_Ham|Guildenstern_Ham" source="Polonius_Ham" target="Guildenstern_Ham" weight="4"/>
+            <edge id="Polonius_Ham|PLAYERS.1_Ham" source="Polonius_Ham" target="PLAYERS.1_Ham" weight="1"/>
+            <edge id="Polonius_Ham|PLAYERS.0.1_Ham" source="Polonius_Ham" target="PLAYERS.0.1_Ham" weight="1"/>
+            <edge id="Polonius_Ham|PLAYERS.Prologue_Ham" source="Polonius_Ham" target="PLAYERS.Prologue_Ham" weight="1"/>
+            <edge id="Polonius_Ham|PLAYERS.King_Ham" source="Polonius_Ham" target="PLAYERS.King_Ham" weight="1"/>
+            <edge id="Polonius_Ham|PLAYERS.Queen_Ham" source="Polonius_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="Polonius_Ham|PLAYERS.Lucianus_Ham" source="Polonius_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="Polonius_Ham|Ghost_Ham" source="Polonius_Ham" target="Ghost_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|Gertrude_Ham" source="Hamlet_Ham" target="Gertrude_Ham" weight="7"/>
+            <edge id="Hamlet_Ham|Ghost_Ham" source="Hamlet_Ham" target="Ghost_Ham" weight="2"/>
+            <edge id="Hamlet_Ham|Rosencrantz_Ham" source="Hamlet_Ham" target="Rosencrantz_Ham" weight="7"/>
+            <edge id="Hamlet_Ham|Guildenstern_Ham" source="Hamlet_Ham" target="Guildenstern_Ham" weight="5"/>
+            <edge id="Hamlet_Ham|PLAYERS.1_Ham" source="Hamlet_Ham" target="PLAYERS.1_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|Ophelia_Ham" source="Hamlet_Ham" target="Ophelia_Ham" weight="2"/>
+            <edge id="Hamlet_Ham|PLAYERS.0.1_Ham" source="Hamlet_Ham" target="PLAYERS.0.1_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|PLAYERS.Prologue_Ham" source="Hamlet_Ham" target="PLAYERS.Prologue_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|PLAYERS.King_Ham" source="Hamlet_Ham" target="PLAYERS.King_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|PLAYERS.Queen_Ham" source="Hamlet_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|PLAYERS.Lucianus_Ham" source="Hamlet_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|ATTENDANTS.GUARDS_Ham" source="Hamlet_Ham" target="ATTENDANTS.GUARDS_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|Fortinbras_Ham" source="Hamlet_Ham" target="Fortinbras_Ham" weight="2"/>
+            <edge id="Hamlet_Ham|SOLDIERS.FORTINBRAS.Captain_Ham" source="Hamlet_Ham" target="SOLDIERS.FORTINBRAS.Captain_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|Gravedigger_Ham" source="Hamlet_Ham" target="Gravedigger_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|GravediggersCompanion_Ham" source="Hamlet_Ham" target="GravediggersCompanion_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|Doctor_Ham" source="Hamlet_Ham" target="Doctor_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|ATTENDANTS_Ham" source="Hamlet_Ham" target="ATTENDANTS_Ham" weight="2"/>
+            <edge id="Hamlet_Ham|Osric_Ham" source="Hamlet_Ham" target="Osric_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|ATTENDANTS.2_Ham" source="Hamlet_Ham" target="ATTENDANTS.2_Ham" weight="1"/>
+            <edge id="Hamlet_Ham|AMBASSADORS_Ham" source="Hamlet_Ham" target="AMBASSADORS_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|Rosencrantz_Ham" source="Gertrude_Ham" target="Rosencrantz_Ham" weight="3"/>
+            <edge id="Gertrude_Ham|Guildenstern_Ham" source="Gertrude_Ham" target="Guildenstern_Ham" weight="3"/>
+            <edge id="Gertrude_Ham|PLAYERS.1_Ham" source="Gertrude_Ham" target="PLAYERS.1_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|Ophelia_Ham" source="Gertrude_Ham" target="Ophelia_Ham" weight="3"/>
+            <edge id="Gertrude_Ham|PLAYERS.0.1_Ham" source="Gertrude_Ham" target="PLAYERS.0.1_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|PLAYERS.Prologue_Ham" source="Gertrude_Ham" target="PLAYERS.Prologue_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|PLAYERS.King_Ham" source="Gertrude_Ham" target="PLAYERS.King_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|PLAYERS.Queen_Ham" source="Gertrude_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|PLAYERS.Lucianus_Ham" source="Gertrude_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|Ghost_Ham" source="Gertrude_Ham" target="Ghost_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|ATTENDANTS.1_Ham" source="Gertrude_Ham" target="ATTENDANTS.1_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|MESSENGERS.1_Ham" source="Gertrude_Ham" target="MESSENGERS.1_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|FOLLOWERS.LAERTES_Ham" source="Gertrude_Ham" target="FOLLOWERS.LAERTES_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|MESSENGERS.2_Ham" source="Gertrude_Ham" target="MESSENGERS.2_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|Gravedigger_Ham" source="Gertrude_Ham" target="Gravedigger_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|GravediggersCompanion_Ham" source="Gertrude_Ham" target="GravediggersCompanion_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|Doctor_Ham" source="Gertrude_Ham" target="Doctor_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|ATTENDANTS_Ham" source="Gertrude_Ham" target="ATTENDANTS_Ham" weight="2"/>
+            <edge id="Gertrude_Ham|Osric_Ham" source="Gertrude_Ham" target="Osric_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|ATTENDANTS.2_Ham" source="Gertrude_Ham" target="ATTENDANTS.2_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|Fortinbras_Ham" source="Gertrude_Ham" target="Fortinbras_Ham" weight="1"/>
+            <edge id="Gertrude_Ham|AMBASSADORS_Ham" source="Gertrude_Ham" target="AMBASSADORS_Ham" weight="1"/>
+            <edge id="Ophelia_Ham|Reynaldo_Ham" source="Ophelia_Ham" target="Reynaldo_Ham" weight="1"/>
+            <edge id="Ophelia_Ham|Rosencrantz_Ham" source="Ophelia_Ham" target="Rosencrantz_Ham" weight="2"/>
+            <edge id="Ophelia_Ham|Guildenstern_Ham" source="Ophelia_Ham" target="Guildenstern_Ham" weight="2"/>
+            <edge id="Ophelia_Ham|PLAYERS.0.1_Ham" source="Ophelia_Ham" target="PLAYERS.0.1_Ham" weight="1"/>
+            <edge id="Ophelia_Ham|PLAYERS.Prologue_Ham" source="Ophelia_Ham" target="PLAYERS.Prologue_Ham" weight="1"/>
+            <edge id="Ophelia_Ham|PLAYERS.King_Ham" source="Ophelia_Ham" target="PLAYERS.King_Ham" weight="1"/>
+            <edge id="Ophelia_Ham|PLAYERS.Queen_Ham" source="Ophelia_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="Ophelia_Ham|PLAYERS.Lucianus_Ham" source="Ophelia_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="Ophelia_Ham|ATTENDANTS.1_Ham" source="Ophelia_Ham" target="ATTENDANTS.1_Ham" weight="1"/>
+            <edge id="Ophelia_Ham|MESSENGERS.1_Ham" source="Ophelia_Ham" target="MESSENGERS.1_Ham" weight="1"/>
+            <edge id="Ophelia_Ham|FOLLOWERS.LAERTES_Ham" source="Ophelia_Ham" target="FOLLOWERS.LAERTES_Ham" weight="1"/>
+            <edge id="Rosencrantz_Ham|Guildenstern_Ham" source="Rosencrantz_Ham" target="Guildenstern_Ham" weight="5"/>
+            <edge id="Rosencrantz_Ham|PLAYERS.1_Ham" source="Rosencrantz_Ham" target="PLAYERS.1_Ham" weight="1"/>
+            <edge id="Rosencrantz_Ham|PLAYERS.0.1_Ham" source="Rosencrantz_Ham" target="PLAYERS.0.1_Ham" weight="1"/>
+            <edge id="Rosencrantz_Ham|PLAYERS.Prologue_Ham" source="Rosencrantz_Ham" target="PLAYERS.Prologue_Ham" weight="1"/>
+            <edge id="Rosencrantz_Ham|PLAYERS.King_Ham" source="Rosencrantz_Ham" target="PLAYERS.King_Ham" weight="1"/>
+            <edge id="Rosencrantz_Ham|PLAYERS.Queen_Ham" source="Rosencrantz_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="Rosencrantz_Ham|PLAYERS.Lucianus_Ham" source="Rosencrantz_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="Rosencrantz_Ham|ATTENDANTS.GUARDS_Ham" source="Rosencrantz_Ham" target="ATTENDANTS.GUARDS_Ham" weight="1"/>
+            <edge id="Rosencrantz_Ham|Fortinbras_Ham" source="Rosencrantz_Ham" target="Fortinbras_Ham" weight="1"/>
+            <edge id="Rosencrantz_Ham|SOLDIERS.FORTINBRAS.Captain_Ham" source="Rosencrantz_Ham" target="SOLDIERS.FORTINBRAS.Captain_Ham" weight="1"/>
+            <edge id="Guildenstern_Ham|PLAYERS.1_Ham" source="Guildenstern_Ham" target="PLAYERS.1_Ham" weight="1"/>
+            <edge id="Guildenstern_Ham|PLAYERS.0.1_Ham" source="Guildenstern_Ham" target="PLAYERS.0.1_Ham" weight="1"/>
+            <edge id="Guildenstern_Ham|PLAYERS.Prologue_Ham" source="Guildenstern_Ham" target="PLAYERS.Prologue_Ham" weight="1"/>
+            <edge id="Guildenstern_Ham|PLAYERS.King_Ham" source="Guildenstern_Ham" target="PLAYERS.King_Ham" weight="1"/>
+            <edge id="Guildenstern_Ham|PLAYERS.Queen_Ham" source="Guildenstern_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="Guildenstern_Ham|PLAYERS.Lucianus_Ham" source="Guildenstern_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="Guildenstern_Ham|ATTENDANTS.GUARDS_Ham" source="Guildenstern_Ham" target="ATTENDANTS.GUARDS_Ham" weight="1"/>
+            <edge id="PLAYERS.0.1_Ham|PLAYERS.Prologue_Ham" source="PLAYERS.0.1_Ham" target="PLAYERS.Prologue_Ham" weight="1"/>
+            <edge id="PLAYERS.0.1_Ham|PLAYERS.King_Ham" source="PLAYERS.0.1_Ham" target="PLAYERS.King_Ham" weight="1"/>
+            <edge id="PLAYERS.0.1_Ham|PLAYERS.Queen_Ham" source="PLAYERS.0.1_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="PLAYERS.0.1_Ham|PLAYERS.Lucianus_Ham" source="PLAYERS.0.1_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="PLAYERS.Prologue_Ham|PLAYERS.King_Ham" source="PLAYERS.Prologue_Ham" target="PLAYERS.King_Ham" weight="1"/>
+            <edge id="PLAYERS.Prologue_Ham|PLAYERS.Queen_Ham" source="PLAYERS.Prologue_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="PLAYERS.Prologue_Ham|PLAYERS.Lucianus_Ham" source="PLAYERS.Prologue_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="PLAYERS.King_Ham|PLAYERS.Queen_Ham" source="PLAYERS.King_Ham" target="PLAYERS.Queen_Ham" weight="1"/>
+            <edge id="PLAYERS.King_Ham|PLAYERS.Lucianus_Ham" source="PLAYERS.King_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="PLAYERS.Queen_Ham|PLAYERS.Lucianus_Ham" source="PLAYERS.Queen_Ham" target="PLAYERS.Lucianus_Ham" weight="1"/>
+            <edge id="Fortinbras_Ham|SOLDIERS.FORTINBRAS.Captain_Ham" source="Fortinbras_Ham" target="SOLDIERS.FORTINBRAS.Captain_Ham" weight="1"/>
+            <edge id="Fortinbras_Ham|Osric_Ham" source="Fortinbras_Ham" target="Osric_Ham" weight="1"/>
+            <edge id="Fortinbras_Ham|ATTENDANTS.2_Ham" source="Fortinbras_Ham" target="ATTENDANTS.2_Ham" weight="1"/>
+            <edge id="Fortinbras_Ham|ATTENDANTS_Ham" source="Fortinbras_Ham" target="ATTENDANTS_Ham" weight="1"/>
+            <edge id="Fortinbras_Ham|AMBASSADORS_Ham" source="Fortinbras_Ham" target="AMBASSADORS_Ham" weight="1"/>
+            <edge id="ATTENDANTS.1_Ham|MESSENGERS.1_Ham" source="ATTENDANTS.1_Ham" target="MESSENGERS.1_Ham" weight="1"/>
+            <edge id="ATTENDANTS.1_Ham|FOLLOWERS.LAERTES_Ham" source="ATTENDANTS.1_Ham" target="FOLLOWERS.LAERTES_Ham" weight="1"/>
+            <edge id="MESSENGERS.1_Ham|FOLLOWERS.LAERTES_Ham" source="MESSENGERS.1_Ham" target="FOLLOWERS.LAERTES_Ham" weight="1"/>
+            <edge id="ATTENDANTS.0.1_Ham|SAILORS.0.1_Ham" source="ATTENDANTS.0.1_Ham" target="SAILORS.0.1_Ham" weight="1"/>
+            <edge id="Gravedigger_Ham|GravediggersCompanion_Ham" source="Gravedigger_Ham" target="GravediggersCompanion_Ham" weight="1"/>
+            <edge id="Gravedigger_Ham|Doctor_Ham" source="Gravedigger_Ham" target="Doctor_Ham" weight="1"/>
+            <edge id="Gravedigger_Ham|ATTENDANTS_Ham" source="Gravedigger_Ham" target="ATTENDANTS_Ham" weight="1"/>
+            <edge id="GravediggersCompanion_Ham|Doctor_Ham" source="GravediggersCompanion_Ham" target="Doctor_Ham" weight="1"/>
+            <edge id="GravediggersCompanion_Ham|ATTENDANTS_Ham" source="GravediggersCompanion_Ham" target="ATTENDANTS_Ham" weight="1"/>
+            <edge id="Doctor_Ham|ATTENDANTS_Ham" source="Doctor_Ham" target="ATTENDANTS_Ham" weight="1"/>
+            <edge id="ATTENDANTS_Ham|Osric_Ham" source="ATTENDANTS_Ham" target="Osric_Ham" weight="1"/>
+            <edge id="ATTENDANTS_Ham|ATTENDANTS.2_Ham" source="ATTENDANTS_Ham" target="ATTENDANTS.2_Ham" weight="1"/>
+            <edge id="ATTENDANTS_Ham|AMBASSADORS_Ham" source="ATTENDANTS_Ham" target="AMBASSADORS_Ham" weight="1"/>
+            <edge id="Osric_Ham|ATTENDANTS.2_Ham" source="Osric_Ham" target="ATTENDANTS.2_Ham" weight="1"/>
+            <edge id="Osric_Ham|AMBASSADORS_Ham" source="Osric_Ham" target="AMBASSADORS_Ham" weight="1"/>
+            <edge id="ATTENDANTS.2_Ham|AMBASSADORS_Ham" source="ATTENDANTS.2_Ham" target="AMBASSADORS_Ham" weight="1"/>
+        </edges>
+    </graph>
+</gexf>
